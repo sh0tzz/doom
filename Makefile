@@ -1,9 +1,9 @@
 CC		= cc
 CFLAGS	= -Wall -Wextra -Werror -std=c11 -pedantic
-LIBS	= -lglfw -lGL -lm -lGL -lGLEW -lGLU
+LIBS	= -lglfw -lGL -lm -lGLEW -lGLU
 
-OUT_DIR	= build
-OUT_BINARY = doom
+OUT_DIR		= build
+OUT_BINARY	= doom
 
 all:
 	mkdir $(OUT_DIR)
